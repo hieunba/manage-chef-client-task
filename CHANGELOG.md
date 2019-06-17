@@ -1,11 +1,9 @@
-# manage-chef-client-task CHANGELOG
+# manage_chef_client_task CHANGELOG
 
-This file is used to list changes made in each version of the manage-chef-client-task cookbook.
+This file is used to list changes made in each version of the manage_chef_client_task cookbook.
 
 # 0.1.0
 
 Initial release.
 
-- change 0
-- change 1
-
+  - Default to remove chef-client default task

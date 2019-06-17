@@ -1,5 +1,5 @@
 #
-# Cookbook:: manage-chef-client-task
+# Cookbook:: manage_chef_client_task
 # Recipe:: default
 #
 # Copyright:: 2019, Nghiem Ba Hieu
@@ -15,3 +15,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+chef_client_scheduled_task node['chef_client']['task']['name'] do
+  action node['manage_chef_client_task']['default_action']
+end

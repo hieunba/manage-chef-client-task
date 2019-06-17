@@ -1,5 +1,5 @@
 #
-# Cookbook:: manage-chef-client-task
+# Cookbook:: manage_chef_client_task
 # Spec:: default
 #
 # Copyright:: 2019, Nghiem Ba Hieu
@@ -18,7 +18,7 @@
 
 require 'spec_helper'
 
-describe 'manage-chef-client-task::default' do
+describe 'manage_chef_client_task::default' do
   context 'When all attributes are default, on Ubuntu 16.04' do
     let(:chef_run) do
       # for a complete list of available platforms and versions see:
